@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>CI/CD</title>
-</head>
-<body>
-    <h1>PRT CI/CD Completed Successfully</h1>
-</body>
-</html>
+FROM nginx:latest
+
+COPY app/index.html /usr/share/nginx/html/index.html
